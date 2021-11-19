@@ -8,7 +8,7 @@ print("Daftar belanja:", dbsc)
 
 tambah = input("Masukkan barang yang ingin ditambahkan: ")
 
-for tambah in dbsc:
+if tambah in dbsc:
     print("Barang", tambah.upper(), "sudah berada dalam daftar belanja.")
     
 
